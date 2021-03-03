@@ -1,14 +1,15 @@
 import React from "react";
-
-import Navbar from "./navbar.js";
-import Jumbotron from "./jumbotron";
+import NavBar from "./NavBar.js";
+import Jumbotron from "./Jumbotron.js";
+import CardsC from "./CardsC.js";
 
 //create your first component
 export function Home() {
 	return (
-		<div>
-			<Navbar />
+		<div className="container">
+			<NavBar />
 			<Jumbotron />
+			<CardsC />
 		</div>
 	);
 }

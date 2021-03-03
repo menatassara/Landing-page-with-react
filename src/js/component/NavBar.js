@@ -1,6 +1,6 @@
 import React from "react";
 
-const Navbar = () => {
+const NavBar = () => {
 	return (
 		<div>
 			<nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -72,7 +72,7 @@ const Navbar = () => {
 								<a
 									className="nav-link disabled"
 									href="#"
-									tabindex="-1"
+									tabIndex="-1"
 									aria-disabled="true">
 									Disabled
 								</a>
@@ -97,4 +97,4 @@ const Navbar = () => {
 		</div>
 	);
 };
-export default Navbar;
+export default NavBar;
