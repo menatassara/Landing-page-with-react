@@ -1,23 +1,23 @@
-import React from "React";
+import React from "react";
 import Cards from "./Cards";
 
 const CardsC = () => {
-    return (
-        <div className="row">
-            <div className="col-3">
-                <Cards />
-            </div>
-            <div className="col-3">
-                <Cards />
-            </div>
-            <div className="col-3">
-                <Cards />
-            </div>
-            <div className="col-3">
-                <Cards />
-            </div>
-        </div>
-    );
+	return (
+		<div className="row">
+			<div className="col-3">
+				<Cards />
+			</div>
+			<div className="col-3">
+				<Cards />
+			</div>
+			<div className="col-3">
+				<Cards />
+			</div>
+			<div className="col-3">
+				<Cards />
+			</div>
+		</div>
+	);
 };
 
-export default CardsC.js;
+export default CardsC;
